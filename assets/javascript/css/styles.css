@@ -38,7 +38,6 @@ body {
     padding: 20px 20px;
     font-size: 1.5rem;
     font-weight: bold;
-    text-decoration: underline;
     
     
 
@@ -46,7 +45,9 @@ body {
     
 }
 
-.viewhighscore-btn {
+.view-scores {
+    color:white;
+    background-color: indigo;
     position: fixed;
     top: 5px;
     left: 5px;
@@ -58,6 +59,10 @@ body {
    
 }
 
+.view-scores:hover {
+    background-color: violet;
+    box-shadow: 0 0 5px 2px;
+}
 .buttons-css {
     display: grid;
     grid-template-columns: repeat(1, auto);
