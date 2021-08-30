@@ -22,10 +22,8 @@ WEBSITE:
 https://jeremymcg88.github.io/Javaquiz/
 
 SCREENSHOT:
-![ScreenShot](./assets/1630298218015.png)
-![ScreenShot](Screen Shot 2021-08-30 at 12.09.58 AM.png)
-![ScreenShot](Screen Shot 2021-08-30 at 12.10.18 AM.png)
 
+![ScreenShot](/assets/screenshots/screenshots/Java-quiz.png)
 CONTRIBUTION:
 
 Jeremy McGuirk
