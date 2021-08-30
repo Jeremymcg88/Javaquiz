@@ -4,6 +4,7 @@ let secondsLeft = 60;
 
 //the element that displays the time
 let timer = document.getElementById("timer");
+let answerAlert = document.getElementById("answer");
 
 //div for high scores
 let scoresDiv = document.getElementById("scores-div");
@@ -54,6 +55,8 @@ function setTime() {
   }, 1000);
 }
 
+
+
 //function to load the questions on the page
 function displayQuestions() {
   removeEls(startButton);
@@ -66,12 +69,18 @@ function displayQuestions() {
       let el = document.createElement("button");
       el.innerText = questions[questionCount].multiChoice[i];
       el.setAttribute("data-id", i);
+      el.setAttribute('class', "choice-btn")
       el.addEventListener("click", function (event) {
         event.stopPropagation();
 
         if (el.innerText === questions[questionCount].answer) {
+          
+          answerAlert.innerText = 'CORRECT!!'
+          
           score += secondsLeft;
         } else {
+          
+          answerAlert.innerText = 'Incorrect!!'
           score -= 10;
           secondsLeft = secondsLeft - 15;
         }

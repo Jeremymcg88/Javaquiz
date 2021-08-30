@@ -6,20 +6,44 @@
 body {
  padding: 0;
  margin: 0;
- display: flex;
+ /* display: flex; */
  width: 100vw;
  height: 100vh;
  justify-content: center;
  align-items: center;
+ background-color: thistle;
 }
 
+#answer {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 30px;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 8px 2px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.choice-btn {
+  display: inline-block;
+    margin: 11px;
+}
 
 button {
-    display:block;
+    display: flex;
   }
 
-  #start-button {
+
+#start-button {
     background-color: pink;
+    margin-left: 44%;
     
   }
   
