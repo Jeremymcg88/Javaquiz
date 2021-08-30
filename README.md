@@ -22,7 +22,7 @@ WEBSITE:
 https://jeremymcg88.github.io/Javaquiz/
 
 SCREENSHOT:
-![ScreenShot](1630298218015.png)
+![ScreenShot](./assets/1630298218015.png)
 ![ScreenShot](Screen Shot 2021-08-30 at 12.09.58 AM.png)
 ![ScreenShot](Screen Shot 2021-08-30 at 12.10.18 AM.png)
 
