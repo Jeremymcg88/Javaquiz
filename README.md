@@ -23,7 +23,14 @@ https://jeremymcg88.github.io/Javaquiz/
 
 SCREENSHOT:
 
-![ScreenShot](/assets/screenshots/screenshots/Java-quiz.png)
+![ScreenShot](/screenshots/Java-quiz.png)
+![ScreenShot](/screenshots/Java-quiz2.png)
+![Screenshot](/screenshots/Java-quiz3.png)
+
+
+
+
+
 CONTRIBUTION:
 
 Jeremy McGuirk
